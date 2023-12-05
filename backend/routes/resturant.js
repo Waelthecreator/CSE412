@@ -4,11 +4,7 @@ const resRouter = express.Router();
 
 
 const pool = new Pool({
-    user: "postgres",
-    host:"localhost",
-    database: "412proj",
-    password: "2002",
-    port: 7000
+    
 });
 
 resRouter.get("", async (req,res) =>{
